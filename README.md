@@ -18,6 +18,6 @@ Designed for **teaching** and quick **research prototyping**.
 
 ## Installation
 ```bash
-git clone https://github.com/<you>/TDSE-Diffraction.git
+git clone https://github.com/dmitryvnaumov/TDSE-Diffraction.git
 cd TDSE-Diffraction
 pip install -e .
