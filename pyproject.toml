@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tdse-diffraction"
+version = "0.1.0"
+description = "NumPy-based Split-Step Fourier simulator for electron diffraction in SI units"
+authors = [{name = "Your Name"}]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+"numpy>=1.24",
+"matplotlib>=3.7",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
